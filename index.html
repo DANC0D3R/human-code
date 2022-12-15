@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h1>Fare la spesa seguendo una lista</h1>
+        <!-- Inizio -->
+        <ul class="inizio">
+            <li>Apro il frigo</li>
+            <li>Controllo rifornimenti</li>
+            <!-- Condizione SE Manca qualcosa -->
+            <ul>
+                <li>Manca qualcosa?</li>
+                <ul>
+                    <li>Si</li>
+                    <ul>
+                        <li>È vuoto?</li>
+                        <li>Scrivo la lista da 0</li>
+                    </ul>
+                    <br>
+                    <li>Manca una parte degli alimenti</li>
+                    <ul>
+                        <li>Controllo quello che manca</li>
+                        <li>Scrivo sulla lista quello che manca</li>
+                    </ul> 
+                    <br>
+                    <li>No</li>
+                    <ul>
+                        <li>Fine &#8677;</li>
+                    </ul>
+                </ul>
+            </ul>
+            <li>Mi reco al supermercato</li>
+            <li>Entro nel supermercato</li>
+            <li>Giro tra gli scaffali</li>
+            <li>Prendo ciò che mi serve</li>
+            <!-- Condizione SE Ho preso tutto-->
+            <li>Ho preso tutto?</li>
+            <ul>
+                <li>No</li>
+                <ul>
+                    <li>giro tra gli scaffali &#10548;</li>
+                </ul>
+                <li>Si</li>
+                <ul>
+                    <li>Mi dirigo verso la cassa</li>
+                    <li>Aggiungo gli snack</li>
+                    <!-- Condizione SE Esagero con gli snack -->
+                    <li>Esagero con gli snack?</li>
+                    <ul>
+                        <li>Si</li>
+                        <ul>
+                            <li>Pago con i cupon e contanti</li>
+                            <li>Fine &#8677;</li>
+                        </ul>
+                        <li>No</li>
+                        <ul>
+                            <li>No</li>
+                            <ul>
+                                <li>Pago solo con i cupon</li>
+                                <li>Fine &#8677;</li>
+                            </ul>
+                        </ul>
+                    </ul>
+                </ul>
+            </ul>
+        </ul>
+    </main>
+</body>
+</html>
